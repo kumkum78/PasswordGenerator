@@ -48,7 +48,7 @@ function App() {
 
         <div className='passLength'>
           <label>Password length</label>
-          <input type='number' value={passwordlen} onChange={(event)=>setPasswordlen(event.target.v lue)} min={4} max={20}/>
+          <input type='number' value={passwordlen} onChange={(event)=>setPasswordlen(event.target.value)} min={4} max={20}/>
         </div>
 
 
